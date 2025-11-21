@@ -57,7 +57,7 @@ public class HealthCheckController {
         response.put("uptime", getUptime());
 
         // 🎨 Mensagem de Boas-Vindas
-        response.put("message", "🚀 Customer Management System - API Running!");
+        response.put("message", "🚀 Nubank Challenge Server - API Running!");
 
         // ✅ Verificação de Variáveis de Ambiente
         Map<String, Object> envCheck = checkEnvironmentVariables();
